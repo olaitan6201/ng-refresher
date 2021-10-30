@@ -8,9 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'ng-refresher';
 
-  persons: string[] = ['Max', 'Manuel', 'Anna'];
-
-  onPersonCreated(personName:string){
-    this.persons.push(personName);
-  }
+  // onPersonCreated(personName:string){
+  //   this.persons.push(personName);
+  // }
 }
