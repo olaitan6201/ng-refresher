@@ -1,3 +1,4 @@
+<p class="text-center text-danger" *ngIf="isFetching">Fetching Data . . .</p>
 <ul>
   <li *ngFor="let person of personList" (click)="deletePerson(person)">
     {{person}}
